@@ -1,7 +1,7 @@
-package com.sm.ms.repository;
+package com.sm.ms.repository.question;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import tri.lo.model.Question;
+import com.sm.ms.model.question.Question;
 
 public interface QuestionRepository extends JpaRepository<Question, Long> {
 }

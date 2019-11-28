@@ -1,6 +1,7 @@
-package tri.lo.service;
+package com.sm.ms.service;
 
-import tri.lo.model.Answer;
+
+import com.sm.ms.model.question.Answer;
 
 import java.util.List;
 import java.util.Optional;

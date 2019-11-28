@@ -1,9 +1,9 @@
 package com.sm.ms.service.impl;
 
+import com.sm.ms.model.question.Answer;
+import com.sm.ms.service.AnswerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import tri.lo.model.Answer;
-import tri.lo.repository.AnswerRepository;
-import tri.lo.service.AnswerService;
+import com.sm.ms.repository.question.AnswerRepository;
 
 import java.util.List;
 import java.util.Optional;

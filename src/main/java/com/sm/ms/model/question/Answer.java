@@ -1,4 +1,4 @@
-package com.sm.ms.model;
+package com.sm.ms.model.question;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 

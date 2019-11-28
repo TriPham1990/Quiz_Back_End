@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9ecee10-8292-4e57-ba53-f07cd9554aa9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b563cd8-d5c1-419c-9da2-9bf7bc32088c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b563cd8-d5c1-419c-9da2-9bf7bc32088c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/MindStickerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/MindStickerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/controller/KindOfQuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/controller/KindOfQuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/model/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/model/question/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/model/KindOfQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/model/question/KindOfQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/model/question/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/repository/AnswerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/repository/question/AnswerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/repository/KindOfQuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/repository/question/KindOfQuestionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/repository/question/QuestionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/AnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/AnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/KindOfQuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/KindOfQuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/impl/AnswerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/impl/AnswerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/impl/KindOfQuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/impl/KindOfQuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sm/ms/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +56,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend/quiz-backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -86,11 +104,22 @@
       <option name="presentableId" value="Default" />
       <updated>1574914741596</updated>
       <workItem from="1574914745332" duration="735000" />
-      <workItem from="1574934828304" duration="16000" />
+      <workItem from="1574934828304" duration="557000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

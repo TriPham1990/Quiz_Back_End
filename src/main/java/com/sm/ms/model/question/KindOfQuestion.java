@@ -1,4 +1,4 @@
-package tri.lo.model;
+package com.sm.ms.model.question;
 
 import javax.persistence.*;
 import java.util.List;
