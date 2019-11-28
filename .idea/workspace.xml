@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ecee10-8292-4e57-ba53-f07cd9554aa9" name="Default Changelist" comment="" />
+    <list default="true" id="d9ecee10-8292-4e57-ba53-f07cd9554aa9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6b563cd8-d5c1-419c-9da2-9bf7bc32088c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6b563cd8-d5c1-419c-9da2-9bf7bc32088c.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UEHGq4hdKwTewd6thrwUypmMG7" />
   <component name="PropertiesComponent">
@@ -81,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574914741596</updated>
       <workItem from="1574914745332" duration="735000" />
+      <workItem from="1574934828304" duration="16000" />
     </task>
     <servers />
   </component>
