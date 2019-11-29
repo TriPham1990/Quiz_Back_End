@@ -1,5 +1,7 @@
 package com.sm.ms.controller;
 
+import com.sm.ms.model.question.KindOfQuestion;
+import com.sm.ms.service.KindOfQuestionService;
 import com.sm.ms.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -19,6 +21,14 @@ public class QuestionController {
 
     @Autowired
     private QuestionService questionService;
+
+    @Autowired
+    private KindOfQuestionService kindOfQuestionService;
+
+    @ModelAttribute("kindOfQuestion")
+    public List<KindOfQuestion> kindOfQuestions() {
+        return kindOfQuestionService.findAll();
+    }
 
     @GetMapping
     private ResponseEntity<List<Question>> listAllQuestion() {

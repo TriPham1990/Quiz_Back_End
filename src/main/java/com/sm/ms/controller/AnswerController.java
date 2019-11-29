@@ -1,7 +1,9 @@
-package tri.lo.controller;
+package com.sm.ms.controller;
 
 import com.sm.ms.model.question.Answer;
+import com.sm.ms.model.question.Question;
 import com.sm.ms.service.AnswerService;
+import com.sm.ms.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -17,6 +19,14 @@ public class AnswerController {
 
     @Autowired
     private AnswerService answerService;
+
+    @Autowired
+    private QuestionService questionService;
+
+    @ModelAttribute("questions")
+    public List<Question> questions() {
+        return questionService.findAll();
+    }
 
     @GetMapping
     private ResponseEntity<List<Answer>> listAllAnswer() {
